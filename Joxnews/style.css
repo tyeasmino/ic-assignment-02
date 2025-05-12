@@ -178,6 +178,28 @@ footer form input {
   margin-top: 80px;
 }
 
+.blockchainContainer {
+  background-color: #cf412bc8;
+}
+
+.latestText {
+  color: #1f1f1f;
+  font-size: 110px;
+}
+
+.latestTextDiv {
+  top: 140px;
+  left: 0px;
+  right: 0px;
+  z-index: -2;
+}
+
+.technologySofia {
+  left: 30px;
+  bottom: 20px;
+  right: 30px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   /* ...; */
