@@ -90,8 +90,14 @@ footer {
 .font24 {
   font-size: 20px;
 }
+.font26 {
+  font-size: 24px;
+}
 .font28 {
   font-size: 24px;
+}
+.font32 {
+  font-size: 28px;
 }
 
 .text-333333 {
@@ -178,13 +184,13 @@ footer form input {
   margin-top: 80px;
 }
 
-.blockchainContainer {
+.orangeContainer {
   background-color: #cf412bc8;
 }
 
 .latestText {
   color: #1f1f1f;
-  font-size: 110px;
+  font-size: 105px;
 }
 
 .latestTextDiv {
@@ -198,6 +204,30 @@ footer form input {
   left: 30px;
   bottom: 20px;
   right: 30px;
+}
+
+.newsText {
+  font-size: 100px;
+  color: #1f1f1f;
+}
+
+.newsHiddenDiv {
+  left: -160px;
+  right: -100px;
+  bottom: -40px;
+  z-index: -2;
+}
+
+.imgShadow {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #00000063;
+}
+
+.footerP {
+  color: #878787;
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -230,10 +260,15 @@ footer form input {
   .font24 {
     font-size: 24px;
   }
+  .font26 {
+    font-size: 26px;
+  }
   .font28 {
     font-size: 28px;
   }
-
+  .font32 {
+    font-size: 32px;
+  }
   .hero-title {
     font-size: 36px;
   }
